@@ -23,7 +23,7 @@ repository               : "zzz0134/zzz0134.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   name             : "Zihan Zhou"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student in Computer Engineering"
