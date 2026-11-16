@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Publications"
@@ -5,32 +6,41 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>
+  For an up-to-date list of publications, please visit my
+  <a href="https://scholar.google.com/citations?user=Oh7sl_oAAAAJ">Google Scholar</a>.
+</p>
 
-{% include base_path %}
+<h2>2026</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p>
+  <strong>Structured Multi-step Jailbreaking under a Hamiltonian Generative Formulation</strong><br>
+  <strong>Zihan Zhou</strong>, Yang Zhou, Jianghai Yu, Lingjuan Lyu, Longwei Wang, KC Santosh, Ruoming Jin, Dejing Dou.<br>
+  <em>International Conference on Machine Learning (ICML), 2026.</em>
+</p>
 
+<p>
+  <strong>Mitigating the Modality Gap in Vision–Language Models with Fractal Spectral Geometry</strong><br>
+  <strong>Zihan Zhou</strong>, Yang Zhou, Ruoming Jin, Pan He, Patrick Emami.<br>
+  <em>International Conference on Machine Learning (ICML), 2026.</em>
+</p>
 
+<p>
+  <strong>Noise-Free Dynamic Rank-Adaptation via Riemannian Methods in Federated Fine-Tuning</strong><br>
+  <strong>Zihan Zhou</strong>, Yang Zhou, Tianshi Che, Zeru Zhang, Jiaxiang Ren, Da Yan, Zhe Jiang, Yelong Shen, Ruoming Jin, Jianfeng Gao.<br>
+  <em>International Conference on Artificial Intelligence and Statistics (AISTATS), 2026.</em>
+</p>
 
+<p>
+  <strong>Automatic Dialectic Jailbreak: A Framework for Generating Effective Jailbreak Strategies</strong><br>
+  Jianghai Yu, Yang Zhou, <strong>Zihan Zhou</strong>, Lingjuan Lyu, Da Yan, Ruoming Jin, Dejing Dou.<br>
+  <em>International Conference on Learning Representations (ICLR), 2026.</em>
+</p>
+
+<h2>2025</h2>
+
+<p>
+  <strong>Flexible, Efficient, and Stable Adversarial Attacks on Machine Unlearning</strong><br>
+  <strong>Zihan Zhou</strong>, Yang Zhou, Zijie Zhang, Lingjuan Lyu, Da Yan, Ruoming Jin, Dejing Dou.<br>
+  <em>International Conference on Machine Learning (ICML), 2025.</em>
+</p>
